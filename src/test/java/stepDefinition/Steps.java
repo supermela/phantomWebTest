@@ -17,7 +17,7 @@ public class Steps {
 
 	@Given("^launch Phantom url$")
 	public void launch_Phantom_url() {
-		System.setProperty("webdriver.chrome.driver", "C:/Program Files/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();
 
 		driver.get("https://phantom.land/work/");
